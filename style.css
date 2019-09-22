@@ -1,0 +1,10 @@
+#display{
+    height: 25vmin;
+    width: 25vmin;
+    background-color: lightgrey;
+    transition-duration: .5s;
+}
+#display.active{
+    background-color:red;
+    transition-duration: 0s;
+}
